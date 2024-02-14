@@ -1,0 +1,60 @@
+/* Main container */
+.container-fluid {
+  padding-top: 20px;
+}
+
+/* Note-taking area */
+.col-8 .note-title,
+.col-8 .note-textarea {
+  width: 100%;
+  height: 150px; 
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.col-8 .note-title::placeholder,
+.col-8 .note-textarea::placeholder {
+  color: #6c757d;
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+/* Sidebar where notes are saved */
+.list-container {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: calc(100vh - 56px); 
+  overflow-y: auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.note-item {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ced4da;
+}
+
+.note-item:last-child {
+  border-bottom: none;
+}
+
+.delete-note {
+  margin-left: auto;
+  color: #dc3545; /* Delete icon color */
+  cursor: pointer;
+}
+
+.delete-note:hover {
+  color: #bd2130; /* Delete icon color on hover */
+}
