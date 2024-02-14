@@ -6,5 +6,5 @@ The Note Taker app streamlines the note-taking process, offering users a clear i
 The following images show the web application's appearance and functionality:
 
 ![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](noteScreenShot.png)
-[click here to open](https://adamem02.github.io/Elephant/notes.html)
+[click here to open](https://adamem02.github.io/Elephant)
 
